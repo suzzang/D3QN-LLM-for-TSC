@@ -28,7 +28,7 @@
 - **OS**: Ubuntu 22.04.5 / Windows (WSL supported)  
 - **CUDA Support**: PyTorch acceleration in an NVIDIA GPU environment  
 - **SUMO Version**: 1.20.0 or later recommended  
-- **Python Environment**: Python 3.8 or later (venv virtual environment recommended)  
+- **Python Environment**: Python 3.10.12 or later (venv virtual environment recommended)  
 
 ## 📂 Project Structure
 ```

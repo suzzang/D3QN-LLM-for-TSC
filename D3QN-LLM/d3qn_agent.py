@@ -4,32 +4,18 @@ import os
 import torch
 import torch.nn as nn
 import torch.nn.functional as F
-import torch.optim as optim
 
 import numpy as np
-from collections import namedtuple, deque
 import matplotlib.pyplot as plt
-import matplotlib.pylab as pylab
 from itertools import cycle, count
-from textwrap import wrap
 import pandas as pd
 
-import matplotlib
-import subprocess
 import os.path
-import tempfile
 import random
-import base64
-import pprint
 import glob
 import time
-import json
-import sys
-import gym
-import io
 import os
 import gc
-import platform
 
 
 EPS = 1e-6
@@ -171,7 +157,7 @@ class EGreedyExpStrategy(): #점진적으로 입실론값이 감소함 -> 탐험
             q_values = model(state).detach().cpu().data.numpy().squeeze()
 
         if np.random.rand() > self.epsilon:
-            #print("@@이용이다냥@@")
+            #print("이용이다")
             action = np.argmax(q_values) #가장 큰 Q값을 고르는것 ->이용
         else:
         

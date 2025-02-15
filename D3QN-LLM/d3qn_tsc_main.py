@@ -1,14 +1,4 @@
-import torch
-import torch.nn as nn
-import torch.nn.functional as F
 import torch.optim as optim
-from torch.utils.data import TensorDataset
-from torch.utils.data import DataLoader
-import numpy as np
-import matplotlib.pyplot as plt
-import pickle
-import random
-
 import tsc_env as env
 import d3qn_agent as d3a
 
@@ -22,7 +12,7 @@ for seed in SEEDS:
 
     #'''
     if seed == 23:
-        print("23다")
+        print("23")
         break
     #'''
 
@@ -35,13 +25,13 @@ for seed in SEEDS:
         'env_name': 'TSC',
         'gamma': 0.99,
         'max_minutes': 1200,
-        'max_episodes': 300,  # 원래 300
-        'goal_mean_100_reward': 0  # 원래 100
+        'max_episodes': 300,  
+        'goal_mean_100_reward': 0  
     }
 
     value_model_fn = lambda nS, nA: d3a.FCDuelingQ(nS, nA, hidden_dims=(512, 128))
     value_optimizer_fn = lambda net, lr: optim.RMSprop(net.parameters(), lr=lr)
-    value_optimizer_lr = 0.001  # 원래 0.0005
+    value_optimizer_lr = 0.001  
     max_gradient_norm = float('inf')
     
 
@@ -77,7 +67,6 @@ for seed in SEEDS:
     #result, final_eval_score, training_time, wallclock_time = agent.train(
     #    tsc, seed, gamma, max_minutes, max_episodes, goal_mean_100_reward, model_number)
 
-    #tsc.saveTxt()
 
     # 평가
     final_eval_score, score_std, reward = agent.su_evaluate(eval_model,tsc_eval,model_number,100)

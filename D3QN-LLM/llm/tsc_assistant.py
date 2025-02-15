@@ -1,27 +1,15 @@
 import numpy as np
-from typing import List
 from loguru import logger
 
 from langchain_community.chat_models import ChatOpenAI
 from langchain.memory import ConversationTokenBufferMemory
 from  langchain.chains.conversation.base import ConversationChain
-from langchain.prompts import ChatPromptTemplate   #导入聊天提示模板
-from langchain.chains.llm import LLMChain   #导入LLM链。
+from langchain.prompts import ChatPromptTemplate   
 
 from langchain.memory import ConversationBufferMemory
 from langchain.output_parsers import ResponseSchema
 from langchain.output_parsers import StructuredOutputParser
 
-from llm.tsc_agent_prompt import SYSTEM_MESSAGE_SUFFIX
-from llm.tsc_agent_prompt import (
-    SYSTEM_MESSAGE_SUFFIX,
-    SYSTEM_MESSAGE_PREFIX,
-    HUMAN_MESSAGE,
-    FORMAT_INSTRUCTIONS,
-    TRAFFIC_RULES,
-    DECISION_CAUTIONS,
-    HANDLE_PARSING_ERROR
-)
 
 class TSCAgent:
     def __init__(self, 

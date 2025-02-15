@@ -30,6 +30,26 @@
 - **SUMO Version**: 1.20.0 or later recommended  
 - **Python Environment**: Python 3.8 or later (venv virtual environment recommended)  
 
+## 📂 Project Structure
+```
+📦D3QN-LLM
+ ┣ 📂asset
+ ┣ 📂d3qn_imgs
+ ┣ 📂d3qn_models
+ ┣ 📂eval_d3qn_imgs
+ ┣ 📂eval_d3qn_txts
+ ┣ 📂llm
+ ┣ 📂logs
+ ┣ 📂sumo
+ ┃ ┣ 📂add
+ ┃ ┣ 📂detectors
+ ┃ ┣ 📂net
+ ┃ ┣ 📂rou
+ ┃ ┣ 📂trip
+ ┣ 📜d3qn_agent.py
+ ┣ 📜d3qn_tsc_main.py
+ ┗ 📜tsc_env.py
+```
 
 ## 📄 Citation
 

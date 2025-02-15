@@ -1,6 +1,6 @@
 # Optimizing Traffic Signal Control Using LLM-Driven Reward Weight Adjustment in Reinforcement Learning
 
-| ![D3QN-LLM](./tsc_real/asset/D3QN-LLM%20framework.png) | ![Flow](./tsc_real/asset/Flow%20of%20the%20Proposed%20Methodology.png) |
+| ![D3QN-LLM](./D3QN-LLM/asset/D3QN-LLM%20framework.png) | ![Flow](./D3QN-LLM/asset/Flow%20of%20the%20Proposed%20Methodology.png) |
 |:--:|:--:|
 | **Fig.1.D3QN-LLM Framework** | **Fig.2.Flow of the Proposed Methodology** |
 

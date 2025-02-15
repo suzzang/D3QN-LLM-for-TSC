@@ -19,16 +19,18 @@
 ## 🔧 Technology Stack and Environment
 
 ### 🚀 Key Technologies
-- **Python**, **PyTorch (GPU Acceleration)** - Implementation of deep learning models and reinforcement learning  
+- **Python**, **PyTorch (GPU Acceleration)** - Deep learning & reinforcement learning implementation  
 - **SUMO (Simulation of Urban Mobility)** - Traffic simulation and vehicle data generation  
 - **GPT-4o-mini (LLM API)** - Lightweight language model for traffic situation analysis  
 - **LangChain Framework** - LLM prompt engineering and response control  
+- **Docker** - Containerized environment for deployment and reproducibility  
 
 ### 🛠 Development Environment
 - **OS**: Ubuntu 22.04.5 / Windows (WSL supported)  
-- **CUDA Support**: PyTorch acceleration in an NVIDIA GPU environment  
+- **Docker**: Latest version recommended (tested with Docker 27.5.1)  
+- **CUDA Support**: PyTorch acceleration in an NVIDIA GPU environment (if available)  
 - **SUMO Version**: 1.20.0 or later recommended  
-- **Python Environment**: Python 3.10.12 or later (venv virtual environment recommended)  
+- **Python Environment**: Python 3.10.12 or later (venv or Docker recommended)  
 
 ## 📂 Project Structure
 ```

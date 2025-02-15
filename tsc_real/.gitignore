@@ -1,0 +1,35 @@
+
+# 🗑 SUMO (교통 시뮬레이터) 관련 임시 파일 무시
+*.log
+*.tmp
+*.out
+*.sumocfg
+*.rou.xml
+*.trip.xml
+
+# 🛠 Python 관련 불필요한 파일
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# 🔧 환경 설정 관련
+.env
+.DS_Store
+.vscode/
+.idea/
+
+# 🏗 빌드 결과물 제외
+build/
+dist/
+*.egg-info/
+
+# 기타
+d3qn_models/*
+eval_d3qn_txts/*
+llm/config.yaml
+tsc_env.py
+
+
+# 🛠 Git LFS를 사용하려면 (선택 사항)
+# .gitattributes

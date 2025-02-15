@@ -1,0 +1,8 @@
+<additional>
+        <vTypeDistribution id="type1" >
+               <vType id="normal_car" length="5.0" accel="0.75" decel="3.5" emergencyDecel="6.0" startupDelay="0.25" maxSpeed="200" color="1,1,0" sigma="0.5" guiShape="passenger" departLane="random" probability = "1">
+                        <param key="has.emission.device" value="false"/>
+               </vType>
+        </vTypeDistribution>  
+                         
+</additional>

@@ -59,7 +59,7 @@ The following research papers and presentations are related to this project.
 If this research has been helpful, please cite the papers below.
 
 ### 📖 Scopus Journal
-- **[Accepted]** **Sujeong Choi** and Yujin Lim, “Optimizing Traffic Signal Control Using LLM-Driven Reward Weight Adjustment in Reinforcement Learning,” *Journal of Information Processing Systems* (Editing/Proofreading in progress, Expected publication: February 2025).
+- **S. Choi** and Y. Lim, "Optimizing Traffic Signal Control Using LLM-Driven Reward Weight Adjustment in Reinforcement Learning," Journal of Information Processing Systems, vol. 21, no. 1, pp. 43-51, 2025.
 
 ### 🎤 Domestic Conference
 - **[Oral Presentation]**  
